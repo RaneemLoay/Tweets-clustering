@@ -15,7 +15,7 @@ the tweets are clustered using **Jaccard distance** metric and **K-means cluster
    • every word is converted to lowercase.
    
 2. K-Means clustering algorithm:
-3. **K-means clustering algorithm is implemented from scratch, without using any machine learning libraries.**
+ **K-means clustering algorithm is implemented from scratch, without using any machine learning libraries.**
   1. The code uses "bbchealth.txt" by default for the tweets data. - A user can change the url path to another     data file as desired from the given files.
   2. The code uses, "3 clusters" by default and performs "5 experiments" one after another.
   3. user can change the default value of initial clusters (k) and number of experiments to be performed.
