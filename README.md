@@ -7,14 +7,14 @@ the tweets are clustered using **Jaccard distance** metric and **K-means cluster
 
 # Main steps
 
-1. Tweets Preprocessing:
+## Tweets Preprocessing:
    • tweet IDs and timeStamps are removed.
    •words that starts with the symbol '@', e.g., @AnnaMedaris, are removed.
    • hashtag symbols are removed, e.g., #depression is converted to depression.
    • any URL are removed.
    • every word is converted to lowercase.
    
-2. K-Means clustering algorithm:
+## K-Means clustering algorithm:
  **K-means clustering algorithm is implemented from scratch, without using any machine learning libraries.**
   1. The code uses "bbchealth.txt" by default for the tweets data. - A user can change the url path to another     data file as desired from the given files.
   2. The code uses, "3 clusters" by default and performs "5 experiments" one after another.
