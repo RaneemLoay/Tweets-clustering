@@ -1,11 +1,11 @@
-# About project
+# About project :
 
 Twitter provides a service for posting short messages. In practice, many of the tweets are very similar to each other and can be clustered together.
 By clustering similar tweets together, we can generate a more concise and organized representation of the raw tweets, which will be very useful for many Twitter-based applications (e.g., truth discovery, trend analysis, search ranking, etc.)
 the tweets are clustered using **Jaccard distance** metric and **K-means clustering** algorithm.
 
 
-# Main steps
+# Main steps :
 
 ## Tweets Preprocessing:
    • tweet IDs and timeStamps are removed.
@@ -22,7 +22,7 @@ the tweets are clustered using **Jaccard distance** metric and **K-means cluster
   4. The program returns the value of SSE (sum of squared error) and size of each cluster after every experiment   (plotted).
   
 
-# Team Members
+# Team Members :
 - [Heba Tarek](https://github.com/hebatarekkamal)
 - [Rana Ahmed](https://github.com/RanaAhmed2022)
 - [Raneem Loay](https://github.com/RaneemLoay)
